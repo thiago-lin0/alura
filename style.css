@@ -1,0 +1,183 @@
+body{
+    font-family: 'roboto', sans-serif;
+    background: linear-gradient(#fefefe 50%,#888888);
+}
+header{
+    background: #bbbbbb;
+    padding: 20px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav ul{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.produto{
+    width: 940px;
+    margin: 0 auto;
+    padding:  50px 0;
+}
+
+.produto li{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produto li:hover{
+    border-color: #c78c19;
+}
+.produto h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto li:hover h2{
+    font-size: 34px;
+}
+.produtos-descricao{
+    font-size: 18px;
+}
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+.copy{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.input-area, form textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width:50%
+}
+.checkbox{
+    margin:20px 0;
+}
+
+.btn{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: bold;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.btn:hover{
+    background: darkorange;
+}
+
+/* .css da pagina principal*/
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+    clear: left;
+}
+
+.principal p{
+    text-align: left;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.principal p strong{
+    font-weight: bold;
+}
+.principal p em{
+    font-style: italic;
+}
+.utensilios-img{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+.lista-beneficios{
+    width: 600px;
+    margin:  0 auto;
+}
+.lista{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.itens:before{
+    content: "★";
+    padding-right: 5px;
+}
+.img-beneficios{
+    width: 60%;
+}
+.mapa{
+    padding: 3em;
+}
+.mapa p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.video{
+    width: 500px;
+    margin: 2em auto;
+}
